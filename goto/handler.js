@@ -4,7 +4,7 @@ module.exports = (event, context) => {
     let redirect;
 
     if(event.path == "/home") {
-        redirect = "https://www.google.cl/";
+        redirect = "https://www.google.com/";
     } else if(event.path == "/sponsors" || event.path == "/insiders") {
         redirect = "https://github.com/users/alexellis/sponsorship";
     } else if(event.path == "/inlets") {
